@@ -35,10 +35,11 @@ function Hero() {
           <h1 className='font-extrabold text-lg md:text-2xl lg:text-[38px]'>
             {t('home.title')}<span className='bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 bg-clip-text text-transparent'>Axel</span>
           </h1>
-          <button className="button">
+          <button className="button tooltip">
           <h1 className='shaking text-xl md:text-[30px] lg:text-[40px]'>
             👋
           </h1>
+          <span className='tooltiptext'>{t('home.bonus')}</span>
           </button>
         </div>
         <h2 className='font-semibold text-sm md:text-xl lg:text-[25px] mb-5'>{t('home.desc-1')}<span className='pre bg-gray-200 rounded-xl p-1 text-gray-400'>{t('home.desc-2')}</span>{t('home.desc-3')}</h2>

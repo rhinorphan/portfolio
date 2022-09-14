@@ -12,7 +12,8 @@
     "li-1": "Perfusé en iced-tea",
     "li-2": "Basé en France",
     "li-3": "Disponible",
-    "li-4": "axel.tarifa@gmail.com"
+    "li-4": "axel.tarifa@gmail.com",
+    "bonus": "Cliquez pour une surprise !"
   },
   "skills": {
     "h2-1": "Compétences ",
@@ -27,7 +28,7 @@
     "name": "'Axel Tarifa'",
     "position": "'Développeur Front-End junior'",
     "github": "'rhinorphan'",
-    "desc": "'Bonjour! Moi c'est Axel. Je suis un étudiant en 5ème année d'école vétérinaire la journée et un développeur web autoditacte web de nuit. J'adore faire de longues balades en forêt avec mon chien, et je suis un passioné de la faune sauvage. J'aimerais allier dans le future ma passion pour la conservation et médecine vétérinaire à mes compétences de code! Rentrons en contact, et discutons ensemble de votre projet!'",
+    "desc": "'Bonjour ! Moi c'est Axel. Je suis un étudiant en 5ème année d'école vétérinaire la journée et un développeur web autoditacte web de nuit. J'adore faire de longues balades en forêt avec mon chien, et je suis un passioné de la faune sauvage. J'aimerais allier dans le future ma passion pour la conservation et médecine vétérinaire à mes compétences de code ! Rentrons en contact, et discutons ensemble de votre projet !'",
     "title-5":"compétent: ",
     "title-6":"exposéà: ",
     "title-7":"apprentissage: ",
@@ -46,7 +47,7 @@
     "skill-12": "'Typescript'",
     "skill-13": "'Web3'",
     "interest-1":"'📖 lecture'",
-    "interest-2":"'🎬 films/séries'",
+    "interest-2":"'🎬 films / séries'",
     "interest-3":"'🌱 nature'",
     "interest-4":"'🏊🏻 natation'"
   },
