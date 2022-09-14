@@ -1,0 +1,66 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio"
+  },
+  "home": {
+    "title": "Hi, I'm ",
+    "desc-1": "I'm an ",
+    "desc-2": "{autodidact}",
+    "desc-3": " junior Front-End Developer.",
+    "li-1": "Fueled by iced-tea",
+    "li-2": "Based in France",
+    "li-3": "Available",
+    "li-4": "axel.tarifa@gmail.com"
+  },
+  "skills": {
+    "h2-1": "Skills ",
+    "h2-2": "& ",
+    "h2-3": "Knowledge"
+  },
+  "about": {
+    "title-1":"name: ",
+    "title-2":"position: ",
+    "title-3":"github: ",
+    "title-4":"desc: ",
+    "name": "'Axel Tarifa'",
+    "position": "'junior Front-End Developer'",
+    "github": "'rhinorphan'",
+    "desc": "'Hello! I'm Axel. I'm a 5th year veterinary student by day and an autoditact web developer by night. I enjoy long walks in the forest with my dog, and I am passionate about wildlife and Nature conservation. In the future, I would love to be able to combine my love for conservation and veterinary medicine to my coding skills. Let's get in touch, and discuss your next project!'",
+    "title-5":"proficient: ",
+    "title-6":"exposedto: ",
+    "title-7":"learning: ",
+    "title-8":"interests: ",
+    "skill-1": "'HTML5'",
+    "skill-2": "'CSS3'",
+    "skill-3": "'Javascript'",
+    "skill-4": "'ReactJs'",
+    "skill-5": "'NextJs'",
+    "skill-6": "'TailwindCSS'",
+    "skill-7": "'Firebase'",
+    "skill-8": "'MaterialUI'",
+    "skill-9": "'Ruby'",
+    "skill-10": "'Rails'",
+    "skill-11": "'ThreeJS'",
+    "skill-12": "'Typescript'",
+    "skill-13": "'Web3'",
+    "interest-1":"'📖 reading'",
+    "interest-2":"'🎬 movies/series'",
+    "interest-3":"'🌱 nature'",
+    "interest-4":"'🏊🏻 swimming'"
+  },
+  "portfolio": {
+    "title-1": "Project 1",
+    "title-2": "Project 2",
+    "title-3": "Project 3",
+    "title-4": "Project 4",
+    "btn-1": "Live Demo",
+    "btn-2": "Source Code"
+  },
+  "footer": {
+    "title-1": "Coded with ",
+    "title-2": "by Axel Tarifa",
+    "title-3": "© 2022"
+  }
+}
