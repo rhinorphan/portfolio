@@ -26,7 +26,8 @@ function About() {
                 <p>&nbsp;&nbsp;<span className="text-pink-500">return</span>{`{`}</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;{t('about.title-1')}<span className="text-yellow-300">{t('about.name')}</span>,</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;{t('about.title-2')}<span className="text-yellow-300">{t('about.position')}</span>,</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;{t('about.title-3')}<span className="text-yellow-300"><a target="_blank" href="https://github.com/rhinorphan" className="text-yellow-300 hover:underline cursor-pointer">{t('about.github')}</a></span>,</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;{t('about.title-3')}<span className="text-yellow-300"><a target="_blank" href="https://github.com/rhinorphan" rel="noopener noreferrer" className="text-yellow-300 hover:underline cursor-pointer">{t('about.github')}</a></span>,</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;{t('about.title-3bis')}<span className="text-yellow-300"><a target="_blank" href="https://pl.linkedin.com/in/axel-tarifa-05a9022a" rel="noopener noreferrer" className="text-yellow-300 hover:underline cursor-pointer">{t('about.linkedin')}</a></span>,</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;{t('about.title-4')}<div className='pl-9 md:pl-14'><span className="text-yellow-300">{t('about.desc')}</span></div></p>
                 <p>&nbsp;&nbsp;{`}`}</p>
                 <p>{`}`}
@@ -57,7 +58,9 @@ function About() {
               <p>&nbsp;&nbsp;&nbsp;&nbsp;{t('about.title-6')}<span>{`{`}</span></p>
               <p><span className="text-yellow-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('about.skill-9')}</span>,</p>
               <p><span className="text-yellow-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('about.skill-10')}</span>,</p>
-              <p><span className="text-yellow-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('about.skill-11')}</span><p>&nbsp;&nbsp;&nbsp;&nbsp;{`},`}</p>,</p>
+              <p><span className="text-yellow-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('about.skill-14')}</span>,</p>
+              <p><span className="text-yellow-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('about.skill-15')}</span>,</p>
+              <p><span className="text-yellow-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('about.skill-11')}</span><p>&nbsp;&nbsp;&nbsp;&nbsp;{`},`}</p></p>
               <p>&nbsp;&nbsp;&nbsp;&nbsp;{t('about.title-7')}<span>{`{`}</span></p>
               <p><span className="text-yellow-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('about.skill-12')}</span>,</p>
               <p><span className="text-yellow-300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('about.skill-13')}</span><p>&nbsp;&nbsp;&nbsp;&nbsp;{`}`}</p></p>

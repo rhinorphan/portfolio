@@ -1,0 +1,307 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .memoji {
+    transform: translateY(3.5px);
+  }
+
+  .shaking {
+    animation: tilt-shake 2.5s ease-in-out 0s infinite normal none;
+  }
+  
+  @keyframes tilt-shake {
+    0% {
+      transform:  rotate(20deg);
+    }
+    25% {
+        transform:  rotate(-20deg);
+    }
+    50% {
+        transform:  rotate(20deg);
+    }
+    75% {
+        transform:  rotate(-20deg);
+    }
+    100% {
+        transform:  rotate(20deg);
+    }
+  }
+
+  .pre {
+    font-family: monospace;
+  }
+
+  .hire-me:hover span {
+    display: none
+  }
+  .hire-me:hover:before {
+    content: "Hire me!";
+    font-family: 'Sora';
+    font-weight: bold;
+    background-image: 
+      -webkit-linear-gradient(135deg,rgb(147, 51, 234), #06b6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .about-me {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #ddd;
+    box-shadow: -5px 0 3px rgba(0, 0, 0, 0.2) inset, 5px 0 3px rgba(0, 0, 0, 0.2) inset;
+  }
+  
+  .macbook {
+    padding: 4% 6%;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .screen {
+    background: #000;
+    border-radius: 3% 3% 0.5% 0.5% / 5%;
+    margin: 0 auto;
+    /* for aspect ratio */
+    position: relative;
+    width: 80%;
+  }
+  
+  .screen:before {
+    border: 2px solid #cacacc;
+    border-radius: 3% 3% 0.5% 0.5% / 5%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.8) inset, 0 0 1px 2px rgba(255, 255, 255, 0.3) inset;
+    content: "";
+    display: block;
+    /* for aspect ratio ~67:100 */
+    padding-top: 67%;
+  }
+  
+  .screen:after {
+    content: "";
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    position: absolute;
+    bottom: 0.75%;
+    left: 0.5%;
+    padding-top: 1%;
+    width: 99%;
+  }
+  
+  .viewport-project1 {
+    background-image:url('https://firebasestorage.googleapis.com/v0/b/portfolio-axel.appspot.com/o/screencapture-axelcoaching-fr-2022-09-15-17_59_19%20(1).png?alt=media&token=40a571af-4f7e-4472-8659-77439bd5d53e');
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 4.3% 3.2%;
+  }
+
+  .viewport-project2 {
+    background-image:url('https://firebasestorage.googleapis.com/v0/b/portfolio-axel.appspot.com/o/screencapture-clarisse-webmedia-vercel-app-2022-09-15-18_10_06%20(1).png?alt=media&token=5aa1fb54-6f40-4488-8b4a-f160e44d0ba6');
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 4.3% 3.2%;
+  }
+
+  .viewport-project3 {
+    background-image:url('https://firebasestorage.googleapis.com/v0/b/portfolio-axel.appspot.com/o/screencapture-clinical-cases-app-firebaseapp-home-2022-09-09-15_33_44%20(1).png?alt=media&token=3d244b66-4bb3-4d8f-bda2-1fd96bbf9430');
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 4.3% 3.2%;
+  }
+
+  .viewport-project4 {
+    background-image:url('https://firebasestorage.googleapis.com/v0/b/portfolio-axel.appspot.com/o/screencapture-phat-landing-page-web-app-2022-09-09-17_32_47-min.png?alt=media&token=e3ed4cf3-99d0-42dc-b297-77fae2109611');
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 4.3% 3.2%;
+  }
+  
+  .base {
+    /* for aspect ratio */
+    position: relative;
+    width: 100%;
+  }
+  
+  .base:before {
+    content: "";
+    display: block;
+    /* for aspect ratio ~33:1000*/
+    padding-top: 3.3%;
+    /* stylin */
+    background: linear-gradient(#eaeced, #edeef0 55%, #fff 55%, #8a8b8f 56%, #999ba0 61%, #4B4B4F 84%, #262627 89%, rgba(0, 0, 0, .01) 98%);
+    border-radius: 0 0 10% 10%/ 0 0 50% 50%;
+    box-shadow: -5px -1px 3px rgba(0, 0, 0, 0.2) inset, 5px -1px 3px rgba(0, 0, 0, 0.2) inset;
+  }
+  
+  .notch {
+    background: #ddd;
+    border-radius: 0 0 7% 7% / 0 0 95% 95%;
+    box-shadow: -5px -1px 3px rgba(0, 0, 0, 0.2) inset, 5px -1px 3px rgba(0, 0, 0, 0.2) inset;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3.5%;
+    z-index: 2;
+    /* for aspect ratio */
+    position: relative;
+    width: 14%;
+  }
+  
+  .notch:before {
+    content: "";
+    display: block;
+    /* for aspect ratio ~1:10 */
+    padding-top: 10%;
+  }
+  
+  
+  /* Screenshot Hover Scroll Additions
+  -------------------------------------------------------------- */
+  
+  .macbook .viewport-project1 {
+    transition: background-position 10s ease;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .macbook:hover .viewport-project1 {
+    background-position: 0 100%;
+  }
+  
+  .macbook .viewport-project1:after {
+    background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .macbook .viewport-project2 {
+    transition: background-position 2s ease;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .macbook:hover .viewport-project2 {
+    background-position: 0 100%;
+  }
+  
+  .macbook .viewport-project2:after {
+    background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .macbook .viewport-project3 {
+    transition: background-position 3s ease;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .macbook:hover .viewport-project3 {
+    background-position: 0 100%;
+  }
+  
+  .macbook .viewport-project3:after {
+    background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .macbook .viewport-project4 {
+    transition: background-position 13s ease;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .macbook:hover .viewport-project4 {
+    background-position: 0 100%;
+  }
+  
+  .macbook .viewport-project4:after {
+    background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(31 41 55);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(31 41 55) transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .group:hover p {
+    color: transparent; 
+    background-image: linear-gradient(to right, #06b6d4, rgb(59 130 246 / 0)); 
+    background-clip: text; 
+    background-color: #3B82F6; 
+    background-color: #7C3AED; 
+    transition-duration: 500ms; 
+  }
+}
+
